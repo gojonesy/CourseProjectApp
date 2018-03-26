@@ -8,6 +8,7 @@ namespace CourseProjectApp.Controllers
 {
     public class MainController : Controller
     {
+        
         public IActionResult Index()
         {
             ViewBag.value = "My first MVC route!!";
